@@ -1,0 +1,6 @@
+{
+    "ignore": [
+        "app/public/",
+        "app/views/"
+    ]
+}

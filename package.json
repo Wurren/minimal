@@ -1,0 +1,48 @@
+{
+    "name": "minimal",
+        "version": "0.0.1",
+        "private": true,
+        "scripts": {
+        "start": "node ./bin/www"
+    },
+    "dependencies": {
+        "body-parser": "~1.12.0",
+        "cookie-parser": "~1.3.4",
+        "debug": "^2.2.0",
+        "express": "~4.12.2",
+        "jade": "~1.9.2",
+        "morgan": "~1.5.1",
+        "serve-favicon": "~2.2.0",
+        "bookshelf" : "*",
+        "knex" : "*",
+        "mysql" : "*",
+        "passport" : "*",
+        "passport-local" : "*",
+        "checkit" : "*",
+        "moment" : "*",
+        "method-override" : "*",
+        "connect-flash" : "*",
+        "express-session": "*",
+        "connect-redis": "*",
+        "bcryptjs" : "*",
+        "node-fetch" : "*",
+        "lodash" : "^3.0.0",
+        "slug" : "*",
+        "twitter" : "*",
+        "emoji-strip" : "*",
+        "slug" : "*"
+    },
+    "devDependencies": {
+        "gulp": "^3.8.11",
+        "gulp-concat": "*",
+        "gulp-less": "*",
+        "gulp-minify-css": "^1.1.1",
+        "gulp-notify": "^2.2.0",
+        "gulp-plumber": "*",
+        "gulp-rename": "^1.2.2",
+        "gulp-uglify": "*",
+        "gulp-watch": "^4.2.4",
+        "gulp-webserver": "^0.9.1",
+        "shipit-deploy" : "*"
+    }
+}

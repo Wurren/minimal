@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    .auth
+        h1= "Signup Now"
+        
+        if errors && errors.errors
+            each error in errors.errors
+                .message.error= error.message
+
+        form(action="/signup", method="post")
+            .field-wrap
+                label= "Email Address"
+                input.field(type="text", name="email", value=fields.email)
+            .field-wrap
+                label= "Password"
+                input.field(type="password", name="password")
+            .field-wrap
+                label= "Confirm Password"
+                input.field(type="password", name="confirm_password")
+            .submit-wrap
+                button.btn(type="submit")= "Submit"
